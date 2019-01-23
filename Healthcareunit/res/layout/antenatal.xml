@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A7FFF"
+    android:padding="5dp">
+
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout1"
+        android:orientation="vertical" >
+        
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/pageat"
+        android:text="1 of 9"/>
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=" "/>
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+                <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="HIV / AIDS"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:text="deabjbdjsdjvhsdjvjsdvksdnvjdsb" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" 
+        android:weightSum="3">
+        <LinearLayout 
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">        
+            <Button
+                android:onClick="ShowPrevius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:text="Previus" />
+        </LinearLayout>
+        <LinearLayout 
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">        
+            <Button
+            android:onClick="Share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:text="share" />
+        </LinearLayout>
+        <LinearLayout 
+            android:gravity="end"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">        
+            <Button                
+            android:onClick="ShowNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:text="Next" />
+        </LinearLayout>
+        
+
+    </LinearLayout>
+
+</RelativeLayout>

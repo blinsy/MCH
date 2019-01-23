@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="mch">
+</Property><Property Name="Solution File" Value="C:\Users\blinsy mwaniki\Desktop\mch\mch.sln">
+</Property><Property Name="User Options File" Value="C:\Users\blinsy mwaniki\Desktop\mch\mch.suo">
+</Property><Property Name="Date" Value="Monday, July 31, 2017">
+</Property><Property Name="Time" Value="12:10 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="mch.sln" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch.sln">
+</Event><Event ErrorLevel="0" Project="" Source="mch.suo" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch.suo">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\mch.vbproj" Description="Project file successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\mch.vbproj">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FirstVistiForm.designer.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FirstVistiForm.designer.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FirstVistiForm.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FirstVistiForm.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\Form1.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\Form1.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\Form1.Designer.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\Form1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FrmClinics.designer.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FrmClinics.designer.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FrmClinics.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FrmClinics.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FrmSelector.designer.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FrmSelector.designer.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FrmSelector.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FrmSelector.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Modules\ConnectionModule.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Modules\ConnectionModule.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\My Project\Application.Designer.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\My Project\Resources.Designer.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\My Project\Settings.Designer.vb" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\My Project\Application.myapp" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\My Project\Settings.settings" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Resources\selector2.jpg" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Resources\selector2.jpg">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FirstVistiForm.resx" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FirstVistiForm.resx">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\Form1.resx" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\Form1.resx">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FrmClinics.resx" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FrmClinics.resx">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\Forms\FrmSelector.resx" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\Forms\FrmSelector.resx">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\My Project\Resources.resx" Description="File successfully backed up as C:\Users\blinsy mwaniki\Desktop\mch\Backup\mch\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\mch.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="mch" Source="mch\mch.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="mch.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="mch.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="mch" Source="mch\mch.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

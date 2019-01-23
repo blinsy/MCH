@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#7FAAFF"
+    tools:context=".MainActivity" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout 
+            android:id="@+id/antenatal"
+            android:onClick="ClicksHandler"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="200px"
+               android:layout_margin="2dp"
+               android:src="@drawable/pic1"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="ANTENATAL CARE"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Antenatal care is the care you receive from healthcare professionals during your pregnance. The purpose of antenatal care is to monitor your health,your baby's helth and support you"
+                   android:textSize="15dp"/>
+           </LinearLayout>          
+           
+        </LinearLayout>
+        
+        
+        <LinearLayout 
+            android:id="@+id/postnatal"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:onClick="ClicksHandler"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="200px"
+               android:layout_margin="2dp"
+               android:src="@drawable/pic2"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="POSTNATAL CARE"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="postnatal care is pre-eminently about the provision of a supportive environment in which a woman, her baby and wider family can begin ther life together"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout 
+            android:id="@+id/babycard"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="200px"
+               android:layout_margin="2dp"
+               android:src="@drawable/notify"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="YOUR BABY'S HOSPITAL CARD"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="View your baby's card and edit it"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout
+            android:id="@+id/practitioner" 
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="200px"
+               android:layout_margin="2dp"
+               android:src="@drawable/notify1"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MEDICAL PRACTITIONER"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Search registered medical practitioner and see their details"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+       
+        
+        
+        
+        <LinearLayout 
+            android:id="@+id/fertility"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="200px"
+               android:layout_margin="2dp"
+               android:src="@drawable/ovulation"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="FERTILITY AND OVULATION CALENDER"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Set your calender on menstruation circle"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

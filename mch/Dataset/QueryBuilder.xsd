@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="QueryBuilder" targetNamespace="http://tempuri.org/QueryBuilder.xsd" xmlns:mstns="http://tempuri.org/QueryBuilder.xsd" xmlns="http://tempuri.org/QueryBuilder.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.mch.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        `basic_ information`.Name, method_type.Type_Name, pill_type.PillName, method_of_contraception_adopted.No_Of_Cycle, iucd_type.IUCD_Name, method_of_contraception_adopted.`Size`, 
+                         injection_type.Injection_Name, method_of_contraception_adopted.No_Of_Months, spermicide_type.Spermicide_Name, method_of_contraception_adopted.Amount_Issued, implant_type.ImplantType, 
+                         method_of_contraception_adopted.No_of_years, method_of_contraception_adopted.CondomType, method_of_contraception_adopted.NO_Issued, method_of_contraception_adopted.Reason, 
+                         method_of_contraception_adopted.Remarks_Or_Refferals, staff_details.Staff_Name, method_of_contraception_adopted.Return_Date
+FROM            staff_details, method_of_contraception_adopted, method_type, implant_type, injection_type, iucd_type, pill_type, spermicide_type, `basic_ information`
+WHERE        staff_details.SDID = method_of_contraception_adopted.SDID AND method_of_contraception_adopted.MTID = method_type.MTID AND method_of_contraception_adopted.ITID = implant_type.ITID AND 
+                         method_of_contraception_adopted.IID = injection_type.IID AND method_of_contraception_adopted.IUCDTID = iucd_type.IUCDTID AND method_of_contraception_adopted.PTID = pill_type.PTID AND 
+                         method_of_contraception_adopted.STID = spermicide_type.STID AND method_of_contraception_adopted.BID = `basic_ information`.BID</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Type_Name" DataSetColumn="Type_Name" />
+              <Mapping SourceColumn="PillName" DataSetColumn="PillName" />
+              <Mapping SourceColumn="No_Of_Cycle" DataSetColumn="No_Of_Cycle" />
+              <Mapping SourceColumn="IUCD_Name" DataSetColumn="IUCD_Name" />
+              <Mapping SourceColumn="Size" DataSetColumn="Size" />
+              <Mapping SourceColumn="Injection_Name" DataSetColumn="Injection_Name" />
+              <Mapping SourceColumn="No_Of_Months" DataSetColumn="No_Of_Months" />
+              <Mapping SourceColumn="Spermicide_Name" DataSetColumn="Spermicide_Name" />
+              <Mapping SourceColumn="Amount_Issued" DataSetColumn="Amount_Issued" />
+              <Mapping SourceColumn="ImplantType" DataSetColumn="ImplantType" />
+              <Mapping SourceColumn="No_of_years" DataSetColumn="No_of_years" />
+              <Mapping SourceColumn="CondomType" DataSetColumn="CondomType" />
+              <Mapping SourceColumn="NO_Issued" DataSetColumn="NO_Issued" />
+              <Mapping SourceColumn="Reason" DataSetColumn="Reason" />
+              <Mapping SourceColumn="Remarks_Or_Refferals" DataSetColumn="Remarks_Or_Refferals" />
+              <Mapping SourceColumn="Staff_Name" DataSetColumn="Staff_Name" />
+              <Mapping SourceColumn="Return_Date" DataSetColumn="Return_Date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="QueryBuilder" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="QueryBuilder" msprop:Generator_UserDSName="QueryBuilder">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Type_Name" msprop:Generator_ColumnVarNameInTable="columnType_Name" msprop:Generator_ColumnPropNameInRow="Type_Name" msprop:Generator_ColumnPropNameInTable="Type_NameColumn" msprop:Generator_UserColumnName="Type_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PillName" msprop:Generator_ColumnVarNameInTable="columnPillName" msprop:Generator_ColumnPropNameInRow="PillName" msprop:Generator_ColumnPropNameInTable="PillNameColumn" msprop:Generator_UserColumnName="PillName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="No_Of_Cycle" msprop:Generator_ColumnVarNameInTable="columnNo_Of_Cycle" msprop:Generator_ColumnPropNameInRow="No_Of_Cycle" msprop:Generator_ColumnPropNameInTable="No_Of_CycleColumn" msprop:Generator_UserColumnName="No_Of_Cycle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IUCD_Name" msprop:Generator_ColumnVarNameInTable="columnIUCD_Name" msprop:Generator_ColumnPropNameInRow="IUCD_Name" msprop:Generator_ColumnPropNameInTable="IUCD_NameColumn" msprop:Generator_UserColumnName="IUCD_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Size" msprop:Generator_ColumnVarNameInTable="columnSize" msprop:Generator_ColumnPropNameInRow="Size" msprop:Generator_ColumnPropNameInTable="SizeColumn" msprop:Generator_UserColumnName="Size" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Injection_Name" msprop:Generator_ColumnVarNameInTable="columnInjection_Name" msprop:Generator_ColumnPropNameInRow="Injection_Name" msprop:Generator_ColumnPropNameInTable="Injection_NameColumn" msprop:Generator_UserColumnName="Injection_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="No_Of_Months" msprop:Generator_ColumnVarNameInTable="columnNo_Of_Months" msprop:Generator_ColumnPropNameInRow="No_Of_Months" msprop:Generator_ColumnPropNameInTable="No_Of_MonthsColumn" msprop:Generator_UserColumnName="No_Of_Months" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Spermicide_Name" msprop:Generator_ColumnVarNameInTable="columnSpermicide_Name" msprop:Generator_ColumnPropNameInRow="Spermicide_Name" msprop:Generator_ColumnPropNameInTable="Spermicide_NameColumn" msprop:Generator_UserColumnName="Spermicide_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount_Issued" msprop:Generator_ColumnVarNameInTable="columnAmount_Issued" msprop:Generator_ColumnPropNameInRow="Amount_Issued" msprop:Generator_ColumnPropNameInTable="Amount_IssuedColumn" msprop:Generator_UserColumnName="Amount_Issued" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ImplantType" msprop:Generator_ColumnVarNameInTable="columnImplantType" msprop:Generator_ColumnPropNameInRow="ImplantType" msprop:Generator_ColumnPropNameInTable="ImplantTypeColumn" msprop:Generator_UserColumnName="ImplantType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="No_of_years" msprop:Generator_ColumnVarNameInTable="columnNo_of_years" msprop:Generator_ColumnPropNameInRow="No_of_years" msprop:Generator_ColumnPropNameInTable="No_of_yearsColumn" msprop:Generator_UserColumnName="No_of_years" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CondomType" msprop:Generator_ColumnVarNameInTable="columnCondomType" msprop:Generator_ColumnPropNameInRow="CondomType" msprop:Generator_ColumnPropNameInTable="CondomTypeColumn" msprop:Generator_UserColumnName="CondomType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_Issued" msprop:Generator_ColumnVarNameInTable="columnNO_Issued" msprop:Generator_ColumnPropNameInRow="NO_Issued" msprop:Generator_ColumnPropNameInTable="NO_IssuedColumn" msprop:Generator_UserColumnName="NO_Issued" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Reason" msprop:Generator_ColumnVarNameInTable="columnReason" msprop:Generator_ColumnPropNameInRow="Reason" msprop:Generator_ColumnPropNameInTable="ReasonColumn" msprop:Generator_UserColumnName="Reason" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks_Or_Refferals" msprop:Generator_ColumnVarNameInTable="columnRemarks_Or_Refferals" msprop:Generator_ColumnPropNameInRow="Remarks_Or_Refferals" msprop:Generator_ColumnPropNameInTable="Remarks_Or_RefferalsColumn" msprop:Generator_UserColumnName="Remarks_Or_Refferals" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Staff_Name" msprop:Generator_ColumnVarNameInTable="columnStaff_Name" msprop:Generator_ColumnPropNameInRow="Staff_Name" msprop:Generator_ColumnPropNameInTable="Staff_NameColumn" msprop:Generator_UserColumnName="Staff_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Return_Date" msprop:Generator_ColumnVarNameInTable="columnReturn_Date" msprop:Generator_ColumnPropNameInRow="Return_Date" msprop:Generator_ColumnPropNameInTable="Return_DateColumn" msprop:Generator_UserColumnName="Return_Date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

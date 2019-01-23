@@ -1,0 +1,41 @@
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.FirstVistiForm.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.Form1.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.FrmClinics.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.FrmSelector.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.Resources.resources
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\bin\Debug\mch.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\bin\Debug\mch.pdb
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\bin\Debug\mch.xml
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.exe
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.xml
+C:\Users\user\Documents\Visual Studio 2008\Projects\mch\mch\obj\Debug\mch.pdb
+C:\Users\blinsy mwaniki\Desktop\mch\mch\bin\Debug\mch.exe.config
+C:\Users\blinsy mwaniki\Desktop\mch\mch\bin\Debug\mch.exe
+C:\Users\blinsy mwaniki\Desktop\mch\mch\bin\Debug\mch.pdb
+C:\Users\blinsy mwaniki\Desktop\mch\mch\bin\Debug\mch.xml
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FirstVistiForm.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmEducationLevel.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmImplantType.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmStaffDetail.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmIUCDType.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmMethods.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmClinics.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmPillType.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmSelector.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmSpermicideType.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.MDIMain.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.Resources.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.vbproj.GenerateResource.Cache
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.exe
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.xml
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.pdb
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmInjectionType.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmLogIn.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmPost.resources
+C:\Users\blinsy mwaniki\Desktop\mch\mch\obj\Debug\mch.FrmReasonsChange.resources
+G:\projects\mch\mch\bin\Debug\mch.exe.config
+G:\projects\mch\mch\obj\Debug\mch.exe
+G:\projects\mch\mch\obj\Debug\mch.xml
+G:\projects\mch\mch\obj\Debug\mch.pdb

@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">        
+        <LinearLayout 
+            android:id="@+id/easysearch"
+            android:onClick="ClicksHandler"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="100px"
+               android:layout_margin="2dp"
+               android:src="@drawable/easy"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Easy Search"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="search for disease using their signs and symptoms"
+                   android:textSize="15dp"/>
+           </LinearLayout>          
+           
+        </LinearLayout>
+        
+        
+        <LinearLayout 
+            android:id="@+id/ailements"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:onClick="ClicksHandler"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="100px"
+               android:layout_margin="2dp"
+               android:src="@drawable/ailments"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Ailments"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="List of diseases with their symptopms"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout 
+            android:id="@+id/mother"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:onClick="ClicksHandler"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="100px"
+               android:layout_margin="2dp"
+               android:src="@drawable/postnatal"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Mother and child health"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Antenatal and postnatal care options"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout 
+            
+            android:id="@+id/consulting"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:onClick="ClicksHandler"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="100px"
+               android:layout_margin="2dp"
+               android:src="@drawable/consulting"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Easy Consulting"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="one on one chat with a specialist or a medical practitioner"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout 
+            android:id="@+id/reminder"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:onClick="ClicksHandler"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="100px"
+               android:layout_margin="2dp"
+               android:src="@drawable/reminder"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Reminder and Notifications"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Get reminders and notifications here"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+        <LinearLayout 
+            android:id="@+id/settings"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"    
+            android:clickable="true"
+            android:onClick="ClicksHandler"
+            android:background="@drawable/list_selector"
+            android:layout_margin="5dp">
+           <ImageView 
+               android:layout_width="100px"
+               android:layout_height="100px"
+               android:layout_margin="2dp"
+               android:src="@drawable/settings"/>
+           <LinearLayout 
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:layout_margin="2dp">
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Settings"
+                   android:textSize="20dp"
+                   android:textColor="#00ff00"/>
+               <TextView 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Edit your settings and profile here"
+                   android:textSize="15dp"/>
+           </LinearLayout>
+           
+           
+        </LinearLayout>
+        
+        
+        
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
